@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+
+body,h1,h2,h3,h4,h5,h6,span,a,ul,li{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* headerSection */
+.logo-img img {
+    width: 51px;
+    margin-right: 14px;
+}
+
+
+.jon-header .navbar-brand {
+    font-weight: 600;
+    font-size: 25px;
+    margin-right: 72px;
+}
+.jon-menu  .nav-link{
+    padding-left: 15px !important;
+    padding-right: 16px !important;
+}
+
+
+/* heroSection */
+.heroSection{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.342)), url(https://i.ibb.co/pnr7nHM/mbr-10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+
+.hero h3 {
+    font-size: 21px;
+}
+.hero h2 {
+    font-size: 46px;
+    margin-top: 36px;
+}
+
+.hero .btn {
+    background: #5ba533;
+    padding: 10px 20px;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    padding: 12px 49px;
+    border: none;
+    margin-top: 25px;
+}
+.btn:hover {
+    background: white;
+    color: #6278df;
+    box-shadow: 1px 1px 31px 2px #6278df;
+}
+.my-form {
+    padding: 12px 20px;
+    margin-top: 25px;
+}
+/* numberSection */
+.number h1 {
+    font-size: 57px;
+}
+.number p {
+    font-size: 18px;
+}
+/* aboutSection */
+.about-text h2 {
+    font-size: 37px;
+    margin-top: 120px;
+}
+
+/* faucherSection */
+.fuacherItem {
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.left-img {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text {
+    width: 60%;
+    padding: 20px;
+}
+.left-img img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    right: 52px;
+}
+.right-text p{
+    font-size: 15px;
+}
+/* potfoliyoSection */
+.pt-item a{
+    position: relative;
+    display: block;
+}
+.pt-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(98, 121, 223, 0.671);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+   
+    
+}
+.pt-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* prisingSection */
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    transition: .8s;
+}
+   
+.pricing-item h1{}
+.pricing-item h5 {
+    font-size: 17px;
+}
+.pricing-item ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 51px;
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.pricing-item ul li span {
+    color: #6278df;
+    font-size: 25px;
+    display: inline-block;
+    width: 40px;
+    font-weight: bold;
+    
+}
+.pricing-item-btn .btn {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    border: none;
+    color: #6278df;
+    font-weight: 500;
+    display: inline-block;
+    transition: .5s;
+    padding: 12px 149px;
+    border-radius: 5px;
+}
+.pricing-item:hover .btn{
+    background: #6278df;
+    color: #fff !important;
+    transition: .8s;
+    border-radius: 5px;
+}
+.pricing-item-btn .btn:hover{
+    background: black;
+    color: #fff;
+}
+
+
+/* fedbookSection */
+.about-img img {
+    border-radius: 50px;
+    width: 69px;
+    margin-left: 491px;
+}
+.about-img {
+    margin-top: 40px;
+}
+.about-detales {
+    margin-right: 427px;
+    margin-top: 12px;
+}
+.about-detales h5{}
+.about-detales p {
+    font-size: 16px;
+    margin-right: 59px;
+}
+span {
+    font-size: 74px;
+    color: #ddd;
+}
+/* teamSection */
+.team-item{
+    padding: 25px 0;
+}
+.tem-img img {
+    width: 110px;
+    border-radius: 50px;
+    margin-bottom: -34px;
+    margin-left: 10px;
+}
+.team-content {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.team-content h5 {
+    margin-top: 42px;
+}
+.team-content h2{}
+.team-content p{}
+.team-content .btn {
+    border: none;
+    color: black;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    transition: .5s;
+}
+.team-content .btn:hover{
+    background: #000;
+    color: white;
+}
+/* contactSection */
+.text-form {
+    height: 150px;
+}
+.btn {
+    padding: 11px 38px;
+}
+.contact-form{
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    padding: 10px 20px;
+    
+}
+/* AndroidSection  */
+.a-btn1 {
+    display: inline-block;
+    border: 1px solid #5ba533;
+    padding: 10px 20px;
+    margin-right: 6px;
+    text-decoration: none;
+    color: #5ba533;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: .5s;
+}
+.a-btn2 {
+    display: inline-block;
+    background: #5ba533;
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 7px;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 6px;
+    box-shadow: 1px 2px 15px 4px #5ba533;
+    transition: .5s;
+}
+.andro-btn {
+    margin-top: 43px;
+}
+.a-btn1:hover{
+    background: #5ba533;
+    color: #fff;
+    box-shadow: 1px 2px 15px 4px #5ba533;
+}
+.a-btn2:hover{
+    background: #000;
+    color: #fff;
+    box-shadow: none;
+}
+/* footerSection  */
+.footerSection p {
+    font-size: 19px;
+}
